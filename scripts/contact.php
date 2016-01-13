@@ -1,7 +1,7 @@
 <?php
  require('Twilio.php');
 // ==== Control Vars =======
- $custName = $_POST["name"];
+$custName = $_POST["name"];
 $strFromNumber = "+16138007340";
 $strToNumber = $_POST["cellphone"];
 $strMsg = "Hey $custName! Thank you from Cool Heat. We will get back to you ASAP!";  
