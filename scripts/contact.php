@@ -4,7 +4,7 @@
  $custName = $_POST["name"];
 $strFromNumber = "+16138007340";
 $strToNumber = $_POST["cellphone"];
-$strMsg = "Hey $custName! Thank you from Cool Heat. We will get back to you ASAP!";  
+$strMsg = "Hey ! Thank you from Cool Heat. We will get back to you ASAP!";  
 $aryResponse = array();
  
     // set our AccountSid and AuthToken - from www.twilio.com/user/account
