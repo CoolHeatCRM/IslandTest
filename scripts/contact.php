@@ -3,7 +3,7 @@
 // ==== Control Vars =======
  //$custName = $_POST["name"];
 $strFromNumber = "+16138007340";
-$strToNumber = $_POST["cellphone"];
+$strToNumber = "+16136008092";//$_POST["cellphone"];
 $strMsg = "Hey ! Thank you from Cool Heat. We will get back to you ASAP!";  
 $aryResponse = array();
  
