@@ -4,7 +4,7 @@
  $custName = $_POST["name"];
 $strFromNumber = "+16138007340";
 $strToNumber = $_POST["cellphone"];
-$strMsg = "Hey! Thank you from Cool Heat. We will get back to you ASAP!";  
+$strMsg = "Hey $custName! Thank you from Cool Heat. We will get back to you ASAP!";  
 $aryResponse = array();
  
     // set our AccountSid and AuthToken - from www.twilio.com/user/account
@@ -24,14 +24,6 @@ $aryResponse = array();
         $strToNumber,           // number we are sending to
         $strMsg         // the sms body
     );
-	
-    echo "<script type='text/javascript'>
-      document.body.innerHTML = '';
-      </script>";
-    echo "Assigning $numleft / 95 numbers!<br>";
-    ob_end_flush();
-    flush();
-   
     $aryResponse["SentMsg"] = $strMsg;
     $aryResponse["Success"] = true;
     
