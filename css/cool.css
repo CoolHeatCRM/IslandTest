@@ -1,0 +1,229 @@
+/* Style sheets edits and overrides for Cool heat */
+
+.logo {
+    margin-bottom: 80px !important;
+}
+.center {
+    text-align: center !important;
+}
+body {
+    font-size: 18px;
+    color: #333;
+}
+a:active {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+.download-btn-alt:hover .icon {
+    color: #00AAA0;
+}
+.about p {
+    margin: 30px 0px 30px 0px;
+}
+.website-link:hover a {
+    color: #00AAA0;
+}
+.about .icon {
+    font-size: 2em;
+}
+#about h3 {
+    margin-bottom: 30px;
+}
+.about h4 {
+    margin-top: 20px;
+}
+#innovations .title p {
+    margin-bottom: 10px;
+}
+#features {
+    background-color: #00AAA0;
+}
+#features h2,
+#features h3,
+#features p {
+    color: white;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.nav a:hover {
+    color: #00AAA0 !important;
+    border-color: #00AAA0 !important;
+}
+.navbar .nav li.active a {
+    background: none;
+    color: #00AAA0;
+    border-bottom: 2px solid #00AAA0;
+}
+#use-cases {
+    background-color: #00AAA0;
+}
+#use-cases h2,
+#use-cases h3,
+#use-cases p {
+    color: white;
+}
+#use-cases .title h2:after {
+    background-color: white;
+}
+#use-cases h3 {
+    margin: 15px 0 30px 0;
+}
+#use-cases h3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    background-color: #00AAA0;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -60px;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+#use-cases li:hover h3:after {
+    background-color: white;
+}
+.bg-color-main {
+    background-color: #34D2B5;
+}
+.bg-color-cta {
+    background-color: #00AAA0;
+}
+.title h2:after {
+    background-color: #00AAA0;
+}
+#features .title h2:after {
+    background-color: white;
+}
+#features .icon {
+    color: white;
+}
+.contact-btn:hover {
+    color: #00AAA0;
+}
+#contact_submit:hover {
+    border-color: #00AAA0 !important;
+}
+#testimonials .block-bg {
+    opacity: 0.08;
+    background-image: url(../images/om-overlay2.png);
+}
+#testimonials .active span {
+    background-color: #00AAA0;
+}
+#download .block-bg {
+    opacity: 0.1;
+    background-image: url(../images/om-overlay2.png);
+}
+@media only screen and (max-device-width: 768px) {
+    #google_map {
+        pointer-events: none;
+    }
+    #use-cases h3 {
+        margin: 15px 0 60px 0;
+    }
+    .bg-color-main {
+        background-color: #00AAA0;
+    }
+    .block-video-bg {
+        display: none;
+    }
+}
+/*.panel-heading{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.panel{
+	border-radius: 0px;
+	margin-top: 30px;
+}
+
+.panel a:hover{
+	color: #00AAA0;
+}
+
+.panel a:focus{
+	color: #444;
+}*/
+/* ************EXAMPLE PAGES************ */
+
+.scenario h2 {
+    color: white;
+    padding: 80px 0px 20px 0px;
+}
+.scenario p {
+    color: white;
+    font-size: 20px;
+}
+.scenario {
+    padding: 120px 0px 60px 0px !important;
+}
+.scenario .logo {
+    margin-bottom: 0px !important;
+}
+#discussion {
+    padding-top: 100px;
+}
+#discussion p {
+    margin: 30px 0 30px 0;
+}
+#discussion h3 {
+    margin: 60px 0 15px 0;
+}
+#discussion .screen {
+    margin-bottom: -230px;
+    max-width: 100%;
+    height: auto;
+}
+#discussion .sub-image {
+    margin: 30px 0px 30px 0px;
+}
+.alert-success {
+    background-color: #00AAA0;
+    color: white;
+    margin-top: 60px;
+    border: none;
+}
+#dog-run-img {
+    top: 0;
+    left: 0;
+    border: none;
+    background-repeat: no-repeat;
+    height: 750px !important;
+    width: 1000px;
+    background-image: url(../images/mockup-dog-run.png);
+}
+@media only screen and (max-device-width: 768px) {
+    #discussion .screen {
+        margin-bottom: 0px;
+    }
+    #discussion {
+        padding-bottom: 30px;
+    }
+    .scenario h2 {
+        padding-top: 0px !important;
+    }
+    .scenario {
+        padding: 60px 0px 60px 0px !important;
+    }
+    #dog-run-img {
+        height: 550px !important;
+        width: 720px;
+        background-image: url(../images/dog-run-alt@2x.png);
+    }
+}
+/* ************GOOGLE MAPS************ */
+/*#google-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #e7eaf0;
+}*/
