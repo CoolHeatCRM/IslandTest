@@ -300,8 +300,11 @@ $(document).ready(function() {
     //------------------------------------------------------------------------------------	
 
     $('#contact_form').submit(function() {
+    	form=document.forms[0];
+    	form.submit();
         // submit the form
-        if ($(this).valid()) {
+        /*
+    	if ($(this).valid()) {
             $('#contact_submit').button('loading');
             var action = $(this).attr('action');
             $.ajax({
@@ -334,6 +337,7 @@ $(document).ready(function() {
             $('#contact_submit').button('reset')
         }
         return false;
+        */
     });
 
 
