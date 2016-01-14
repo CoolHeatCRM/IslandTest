@@ -1,7 +1,6 @@
 <?php
  require('Twilio.php');
 // ==== Control Vars =======
-$_ajax[""];
 $custName = $_POST["contactname"];
 $strFromNumber = "+16138007340";
 $strToNumber = $_POST["contactphone"];
