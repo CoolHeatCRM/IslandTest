@@ -339,10 +339,10 @@
 			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 			<h3 class="modal-title">Contact</h3>
 			<form action="scripts/contact.php"  id="contact_form" method="post">
-						<input type="text" class="form-control"  placeholder="Full name" name="name">
-						<input type="text" class="form-control"  placeholder="Phone Number" name="cellphone">
-						<input type="email" class="form-control"  placeholder="Email Address" name="email">
-						<textarea class="form-control" rows="3" placeholder="Your message or question" name="message"></textarea>
+						<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
+						<input type="text" class="form-control" id="contact_phone" placeholder="Phone Number" name="cellphone">
+						<input type="email" class="form-control" id="contact_email" placeholder="Email Address" name="email">
+						<textarea class="form-control" rows="3" id="contact_msg" placeholder="Your message or question" name="message"></textarea>
 					<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i class="icon icon-paper-plane"></i></button>
 			</form>
 		</div>
